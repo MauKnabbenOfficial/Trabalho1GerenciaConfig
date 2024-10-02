@@ -87,6 +87,22 @@ void Commits()
     print("4º");
     print("#6 Correcao Processo e documentacao - HASH: f23e02e642b953e91255d3d1fc7461b0e2c679ab");
     print("\n");
+
+    print("5º");
+    print("#9 Painel de Informação - HASH: e5c7f4007970cf1e7daa0192c20d31878a71189f");
+    print("\n");
+
+    print("6º");
+    print("#12 Ajuste da documentação - HASH: 389185ca70274f1622fab33407cc9ef4327173e8");
+    print("\n");
+
+    print("7º");
+    print("#15 menu - HASH: a7a503a551ac677784dfea73e0369e9b0e1fdb22");
+    print("\n");
+
+    print("8º");
+    print("#18 correcao emergencial - HASH: dd9d6dfa72683e5b78cd6d8bbb112d1de91861b0");
+    print("\n");
 }
 
 void Issues()
@@ -107,6 +123,22 @@ void Issues()
 
     print("4ª");
     print("Correção de Processo - NUMBER: #6");
+    print("\n");
+
+    print("5ª");
+    print("Painel de Informação - NUMBER: #9");
+    print("\n");
+
+    print("6ª");
+    print("Ajuste da documentação - NUMBER: #12");
+    print("\n");
+
+    print("7ª");
+    print("Menu - NUMBER: #15");
+    print("\n");
+
+    print("8ª");
+    print("Correcao Emergencial - NUMBER: #18");
     print("\n");
 
 }
@@ -130,6 +162,38 @@ void PRs()
     print("4º");
     print("#6 Novo Processo #8 - NUMBER: #8 - ALTER: (+1 / -1)");
     print("\n");
+
+    print("4º");
+    print("#6 Novo Processo #8 - NUMBER: #8 - ALTER: (+1 / -1)");
+    print("\n");
+
+    print("5º");
+    print("#9 Painel de Informação - NUMBER: #10 - ALTER: (+143 / -2)");
+    print("\n");
+
+    print("6º");
+    print("Documentação gerada na aplicação - NUMBER: #11 - ALTER: (+143 / -2)");
+    print("\n");
+
+    print("7º");
+    print("#12 Ajuste da documentação - NUMBER: #13 - ALTER: (+2 / -2)");
+    print("\n");
+
+    print("8º");
+    print("Ajuste na documentação - NUMBER: #14 - ALTER: (+2 / -2)");
+    print("\n");
+
+    print("9º");
+    print("#15 menu - NUMBER: #16 - ALTER: (+61 / -30)");
+    print("\n");
+
+    print("10º");
+    print("Menu desenvolvido - NUMBER: #17 - ALTER: (+61 / -30)");
+    print("\n");
+
+    print("11º");
+    print("#18 correcao emergencial - NUMBER: #19 - ALTER: (+5 / -0)");
+    print("\n");
 }
 
 void Merges()
@@ -151,6 +215,34 @@ void Merges()
     print("3º");
     print("Merge pull request #8 from MauKnabbenOfficial/develop - HASH: 21e60caf52661e9faf6cd3dfa52e3e529b1fd6ba");
     print("\n");
+
+    print("4º");
+    print("Merge pull request #10 from MauKnabbenOfficial/PainelInformacoes - HASH: bc624c09de3c9c590a4f5d49bf58dcfc8425f68b");
+    print("\n");
+
+    print("5º");
+    print("Merge pull request #11 from MauKnabbenOfficial/develop - HASH: 9233eec6d3f45cd5f733f2db4648c6fc3f53eec0");
+    print("\n");
+
+    print("6º");
+    print("Merge pull request #13 from MauKnabbenOfficial/AjusteDocumentacao - HASH: aed72a5458693cb7678448855b0ec39707cfdb77");
+    print("\n");
+
+    print("7º");
+    print("Merge pull request #14 from MauKnabbenOfficial/develop - HASH: 99afa228ccbe5d9ff8e4ebdfa2feafc019ba0278");
+    print("\n");
+
+    print("7º");
+    print("Merge pull request #16 from MauKnabbenOfficial/Menu - HASH: ef52602fcc054a5307b57a79afec0c8322cddf62");
+    print("\n");
+
+    print("8º");
+    print("Merge pull request #17 from MauKnabbenOfficial/develop - HASH: 64f1e6982fdf86a770830aac63470937c84ea973");
+    print("\n");
+
+    print("9º");
+    print("Merge pull request #19 from MauKnabbenOfficial/hotfix/DescricaoDocumentacao - HASH: ca00bcb8a75fc496f4e71b5a4efa34be909a0134");
+    print("\n");
 }
 
 void Releases()
@@ -165,6 +257,21 @@ void Releases()
     print("v1.0.1");
     print("What's Changed");
     print("#6 Correcao Processo e documentacao by @MauKnabbenOfficial in #7\r\n#6 Novo Processo by @MauKnabbenOfficial in #8");
+    print("\n");
+
+    print("v1.1.0");
+    print("What's Changed");
+    print("#9 Painel de Informação by @MauKnabbenOfficial in #10\r\nDocumentação gerada na aplicação by @MauKnabbenOfficial in #11");
+    print("\n");
+
+    print("v2.0.0");
+    print("What's Changed");
+    print("#12 Ajuste da documentação by @MauKnabbenOfficial in #13\r\nAjuste na documentação by @MauKnabbenOfficial in #14\r\n#15 menu by @MauKnabbenOfficial in #16\r\nMenu desenvolvido by @MauKnabbenOfficial in #17");
+    print("\n");
+
+    print("v2.0.1");
+    print("What's Changed");
+    print("#18 correcao emergencial by @MauKnabbenOfficial in #19");
     print("\n");
 }
 
