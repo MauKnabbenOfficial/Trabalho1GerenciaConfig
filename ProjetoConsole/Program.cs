@@ -25,18 +25,23 @@ while(opcao >= 0)
         switch (opcao)
         {
             case 1:
+                print("HISTORICO/DOCUMENTAÇÃO DO PROJETO!\n");
                 Commits();
                 break;
             case 2:
+                print("HISTORICO/DOCUMENTAÇÃO DO PROJETO!\n");
                 Issues();
                 break;
             case 3:
+                print("HISTORICO/DOCUMENTAÇÃO DO PROJETO!\n");
                 PRs();
                 break;
             case 4:
+                print("HISTORICO/DOCUMENTAÇÃO DO PROJETO!\n");
                 Merges();
                 break;
             case 5:
+                print("HISTORICO/DOCUMENTAÇÃO DO PROJETO!\n");
                 Releases();
                 break;
             case 6:
