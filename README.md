@@ -19,7 +19,7 @@ Após instalar todas dependencias, acessar a pasta ProjetoConsole e abrir o arqu
 ## Rules
 
 ### Processos
-Deverá ser criado uma branch para cada funcionalidade (issue) baseada na última versão da develop do servidor remoto (github). Após a conclusão do desenvolvimento da mesma será feito um commit destacando no título o número da Issue correspondente, após o commit então deverá ser atualizado dentro da aplicação o número Hash criado deste último commit da funcionalidade então prosseguir para o push direto para servidor remoto (github). Quando bem sucedido o último passo será fazer um merge via git command com a branch develop para sincronização e atualização de ambos os repositórios.
+Deverá ser criado uma branch para cada funcionalidade (issue) baseada na última versão da develop do servidor remoto (github). Após a conclusão do desenvolvimento da mesma será feito um commit destacando no título o número da Issue correspondente, após o commit então deverá ser atualizado dentro da aplicação o número Hash criado deste último commit da funcionalidade então prosseguir para o push direto para servidor remoto (github). Quando bem sucedido o último passo será gerar um Pull Request para a branch develop para merge e então um git command "Pull" na branch develop local para sincronização.
 
 O projeto terá 2 releases, uma contendo o conteudo que foi feito até a #4 e o outro com o restante. Deve haver no mínimo 5 PR para a branch Main, essa será a Deploy para o cliente, somando o PR inicial, com os dois PR das releases, faltará 2 PR que serão de correções.
 
