@@ -37,4 +37,4 @@ Podem ser criadas outras branches por versão se necessário. Documentar como el
 A versão muda de número?
 Como é o processo para fazer a correção e não perder esta correção em algum branch?
 ## 12
-## Documentar como é o processo de desenvolvimento e vincular a imagem no readme.md do repositório. Se julgar importante explique as atividades.
+### Documentar como é o processo de desenvolvimento e vincular a imagem no readme.md do repositório. Se julgar importante explique as atividades.
