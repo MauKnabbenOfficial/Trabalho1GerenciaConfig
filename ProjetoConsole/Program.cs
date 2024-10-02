@@ -1,33 +1,64 @@
-﻿
-print("HISTORICO/DOCUMENTAÇÃO DO PROJETO!\n");
-Console.ReadKey(); // Espera para ler
+﻿using System;
 
-Commits();
-Console.ReadKey(); // Espera para ler
-Console.Clear(); // Limpa o console
-Aguarda();
+int opcao = 0;
 
-Issues();
-Console.ReadKey(); // Espera para ler
-Console.Clear(); // Limpa o console
-Aguarda();
+while(opcao >= 0)
+{
+    Console.Clear(); // Limpa o console
+    print("HISTORICO/DOCUMENTAÇÃO DO PROJETO!\n");
 
-PRs();
-Console.ReadKey(); // Espera para ler
-Console.Clear(); // Limpa o console
-Aguarda();
+    print("Escolha a opção:\n");
+    print("Exibir Commits:         1");
+    print("Exibir Issues:          2");
+    print("Exibir Pull Requests:   3");
+    print("Exibir Merges:          4");
+    print("Exibir Releases:        5");
+    print("Encerrar:               6");
+    print("\n");
 
-Merges();
-Console.ReadKey(); // Espera para ler
-Console.Clear(); // Limpa o console
-Aguarda();
+    string input = Console.ReadLine();
 
-Releases();
-Console.ReadKey();
-Console.Clear(); // Limpa o console
-Aguarda();
+    if (int.TryParse(input, out opcao))
+    {
+        Console.Clear();
 
-Console.ReadKey(); // Espera para ler
+        switch (opcao)
+        {
+            case 1:
+                Commits();
+                break;
+            case 2:
+                Issues();
+                break;
+            case 3:
+                PRs();
+                break;
+            case 4:
+                Merges();
+                break;
+            case 5:
+                Releases();
+                break;
+            case 6:
+                opcao = -1;
+                break;
+        }
+
+        if(opcao > -1)
+        {
+            print("\nPressiona qualquer tecla para retornar ao menu.");
+            Console.ReadKey();
+        }
+        else
+        {
+            Console.Clear();
+            print("\nAté breve!\n");
+
+        }
+
+    }
+}
+
 void Commits()
 {
     print("COMMITS\n");
